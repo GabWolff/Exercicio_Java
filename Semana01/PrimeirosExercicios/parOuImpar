@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class parOuImpar {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Digite um número inteiro: ");
+        int numero = input.nextInt();
+
+        if (numero % 2 == 0) {
+            // Adicionado um espaço antes do "é"
+            System.out.println("O numero " + numero + " é par.");
+        } else {
+            // Adicionado um espaço antes do "é"
+            System.out.println("O numero " + numero + " é ímpar.");
+        }
+    }
+}
