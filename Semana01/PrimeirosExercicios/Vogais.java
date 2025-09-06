@@ -8,7 +8,7 @@ public class Vogais {
         Scanner Palavra = new Scanner(System.in);
 
         System.out.println("Digite uma palavra: ");
-        String palavra = Palavra.nextLine();
+        String palavra = Palavra.nextLine().toLowerCase();
 
         int contadorVogais = 0;
 
