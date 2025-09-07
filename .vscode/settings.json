@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "semana01/teste/audiofilters",
-        "semana01/primeirosExercicios/operadores",
-        "semana01/primeirosExercicios"
+        "Semana02/Arrays",
+        "Semana02/ArrayList",
+        "Semana02/01-estrutura-de-controle",
+        "Semana01/PrimeirosExercicios",
+        "Semana02/02-estrutura-for"
     ]
 }
