@@ -1,9 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "Semana02/Arrays",
-        "Semana02/ArrayList",
-        "Semana02/01-estrutura-de-controle",
-        "Semana01/PrimeirosExercicios",
         "Semana02/02-estrutura-for"
     ]
 }
