@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
         "Semana02/While-e-Do-While",
+        "Semana02/MiniProjeto.java",
         "Semana02/02-estrutura-for",
-        "Semana02/MiniProjeto.java"
+        "Semana03/Array"
     ]
 }
