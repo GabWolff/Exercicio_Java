@@ -22,7 +22,7 @@ public class BuscadorDeAluno {
         if (AlunoEncontrado) {
             System.out.println("Sim, o aluno(a) " + nomeBuscado + " está na lista!");
         } else {
-            System.out.println("Não, o aluno(a) " + nomeBuscado + "Não esta na lista.");
+            System.out.println("Não, o aluno(a) " + nomeBuscado + " não foi encontrado.");
         }
     }
 }
