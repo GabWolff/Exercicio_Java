@@ -5,22 +5,18 @@ public class Carro {
     private String modelo;
     private int ano;
 
+    private static int totalDeCarrosFabricados = 0;
+
     public Carro(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
+
+        totalDeCarrosFabricados++;
     }
 
-    public String getMarca() {
-        return this.marca;
-    }
-
-    public String getModelo() {
-        return this.modelo;
-    }
-
-    public int getAno() {
-        return this.ano;
+    public static int getTotalDeCarrosFabricados() {
+        return totalDeCarrosFabricados;
     }
 
     void exibirInfo() {

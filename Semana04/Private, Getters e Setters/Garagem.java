@@ -10,8 +10,7 @@ public class Garagem {
         int opcao;
 
         do {
-            // "Limpar" a tela imprimindo linhas em branco
-            // para uma melhor experiência de usuário a cada repetição do menu.
+
             for (int i = 0; i < 10; i++) {
                 System.out.println();
             }
@@ -53,6 +52,9 @@ public class Garagem {
                         carroDaVez.exibirInfo();
                         System.out.println("-----------------------");
                     }
+                    int total = Carro.getTotalDeCarrosFabricados();
+                    System.out.println("\nTotal de carros fabricados até agora: " + total);
+
                 }
                 System.out.print("\nPressione Enter para continuar...");
                 input.nextLine(); // Pausa para o usuário ver a lista
